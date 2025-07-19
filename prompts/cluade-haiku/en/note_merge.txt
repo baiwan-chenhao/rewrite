@@ -1,0 +1,12 @@
+Now there are two notes that are viewed as similar relationship.
+You are supposed to merge these notes into a new note.
+The new note should meet these request.
+1. The new note should have all the information of the old two notes.
+2. You should only generate the information that you haven't known.
+<Note1>
+{{note1}}
+</Note1>
+<Note2>
+{{note2}}
+</Note2>
+Please generate the new note. Just generate the new note, DO NOT generate anything else.

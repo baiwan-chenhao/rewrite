@@ -1,0 +1,10 @@
+You will be given a task and your storage path.
+You should choose the right storage path that maybe useful to solve the given question.
+The corresponding note will be retrieved for you to solve that task.
+<Task>
+{{question}}
+</Task>
+<Path>
+{{classes}}
+</Path>
+You only need to output the right path like that: `a,b,c` (be seperated by ",").DO NOT output anything else.

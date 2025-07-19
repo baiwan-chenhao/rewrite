@@ -1,0 +1,19 @@
+仓颉语言小知识
+
+内置类型的最大值、最小值：type.Max, type.Min。如Int64.Max, Int64.Min。
+
+三元运算符：Int64 a = if(true){1} else {2}
+
+创建数组：
+let a = Array<Int64>() // Created an empty Array whose element type is Int64
+let b = Array<Int64>(a) // Use another Array to initialize b
+let c = Array<Int64>(3, item: 0) // Created an Array whose element type is Int64, length is 3 and all elements are initialized as 0
+let d = Array<Int64>(3, {i => i + 1}) // Created an Array whose element type is Int64, length is 3 and all elements are initialized by the initialization function
+var dp = Array<Array<Int64>>(n + 1, {_ => Array<Int64>(m + 1, {_ => 0})})
+
+从HashMap中取值：
+Int64 v = if(map.contains(v)){map[v]}else{default}
+
+堆栈的实现
+LinkedList<T>
+添加元素：append(element);弹出元素：popLast()。

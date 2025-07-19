@@ -1,0 +1,15 @@
+There is one note about a new language.You should generate its storage path.
+The path may be '基本输入输出', '循环语句', '函数定义', etc.
+If an existing path fit the request, just output it. If there is not a fit one, generate a new one.
+1. The path you generate should not be an exact fit for a single note, as each path will encompass multiple notes.
+2. The length of path should not too long. It is supposed to be resembled the length of a chapter title in a book.
+Have generated paths:
+<Path>
+{{types}}
+</Path>
+The note to be processed.
+<Note>
+{{note}}
+</Note>
+Just choose a existing path or generate a new path, DO NOT generate anything else.
+You should prefer to choose existing path.

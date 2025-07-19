@@ -1,0 +1,6 @@
+This is the text you are supposed to learn. Please generate note from it.
+Please generate note in markdown format.
+<Text>
+{{text}}
+</Text>
+Output the note, DO NOT output anything else.

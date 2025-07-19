@@ -1,0 +1,13 @@
+There are two notes.You are supposed to tell the relationship between them.
+The type of relationship are 无关, 相似, 相同.
+无关: The content of those twe notes are different.
+相似: The content of those twe notes are similar and can merge into one note.
+相同: The content of those twe notes are actually same. And only need to save one of them.
+You only need to reply `无关`, `相似` or `相同`. DO NOT reply anything else.
+<Note1>
+{{note1}}
+</Note1>
+<Note2>
+{{note2}}
+</Note2>
+You only need to reply `无关`, `相似` or `相同`. DO NOT reply anything else.
