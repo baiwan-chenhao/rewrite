@@ -24,9 +24,6 @@ param_fingerprint = ".".join(map(str, [NUM_1, NUM_2, INT_MIN, INT_MAX, LEN_LIST_
 random.seed(0)
 
 
-# todo 增加参数水印了。但是参数水印改变后的测试逻辑还没编写。水印变了后，只有修改assert就可以了，不必再生成代码了。
-
-
 def gen_lists_int(int_min=INT_MIN, int_max=INT_MAX, is_sorted=False, len_list_k=1, len_list_min=LEN_LIST_MIN,
                   len_list_max=LEN_LIST_MIN + NUM_1):
     for len_list in range(len_list_min, len_list_max):
@@ -146,7 +143,6 @@ class LANG_TYPE(Enum):
     SCALA = 2
     ERLANG = 3
     JAVA = 4
-    # C = 4  todo : 在参数、类型转换时加上就可以了。
 
 
 def get_lan_name(lan: LANG_TYPE):

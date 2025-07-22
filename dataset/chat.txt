@@ -1,4 +1,4 @@
-C:\Users\xzh\miniconda3\envs\nlper\python.exe D:\BaiduSyncdisk\nlper\workshop\forging\testing\240928\leetcode_testing.py
+python.exe leetcode_testing.py
 >>> 你可以和我介绍一下仓颉语言的函数调用语法糖吗？
 <Queried keys>
 ['函数定义', '基本数据类型', '标识符', '代码反思', '基本输入输出', '表达式']

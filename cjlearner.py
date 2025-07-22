@@ -16,18 +16,6 @@ from evaluator import CJCodeEvaluator
 from utils import stract_code, byte_inference, anthropic_inference, openai_inference
 from agent_learning import learning_dict
 
-"""
-code respose.
-copy code into sample if run right.Make LLMs use right data and wrong data is needed.
-path summary
-path addied summary can soft attention 涣散 de wenti.
-对话式反馈：模型以对话的形式多次尝试编写代码
-
-学习效果细粒度评估。
-
-用FIM改错
-"""
-
 focused_learning_book = [
     "dataset/cangjie开发指南/cangjie/基本概念/标识符.md",
     "dataset/cangjie开发指南/cangjie/基本概念/程序结构.md",
